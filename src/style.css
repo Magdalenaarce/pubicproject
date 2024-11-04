@@ -1,0 +1,106 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font: roboto;
+}
+header {
+  font-size: 48px;
+  font-weight: 700;
+  padding: 10px;
+  text-align: center;
+  color: #c9356c;
+  margin: 0px 0px 32px 0px;
+}
+
+strong {
+  font-size: 56px;
+  font-weight: 800;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px;
+  padding: 16px;
+}
+
+li {
+  text-align: center;
+}
+hr {
+  border: 0px;
+  height: 1px;
+  background-color: #ffdfdf;
+  margin: 16px 0px;
+}
+footer {
+  font-size: 12px;
+  color: gray;
+  text-align: center;
+}
+.temperature-today {
+  font-size: 56px;
+  font-weight: 800px;
+  height: 100%;
+  margin: auto 0px;
+}
+.location {
+  color: gray;
+}
+
+.formm {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.container {
+  display: block;
+  margin: 36px auto;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(201, 53, 107, 0.2);
+  padding: 36px;
+}
+.today {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 10px 0px;
+}
+
+#city {
+  padding: 10px 20px;
+  font-size: 21px;
+  border: 1.5px #c9356c solid;
+  border-radius: 10px;
+  color: #f48db4;
+  width: 60%;
+}
+
+#submit {
+  background-color: #c9356c;
+  border-radius: 10px;
+  color: #fff;
+  border: 0px;
+  margin-left: 10px;
+  width: 100px;
+  font-size: 18px;
+  transition: all 200ms;
+}
+#submit:hover {
+  background-color: #f48db4;
+  cursor: pointer;
+}
+
+.attributes {
+  color: gray;
+  font-weight: 600;
+}
+
+#current-date {
+  display: inline;
+}
